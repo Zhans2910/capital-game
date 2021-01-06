@@ -467,7 +467,7 @@ if (a===1){
             
             function initMap(location) {
                 var link=document.getElementById('map');
-                link.src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAsewvPDV-n-xLbxtF7xN26EU6YYReojng  &maptype=roadmap&language=en&q=" +location  ;
+                link.src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA-Q5hwCZi-tCg6pdtsO-KL82DXNb9oUPU  &maptype=roadmap&language=en&q=" +location  ;
             }
             
             
@@ -568,7 +568,7 @@ if (a===1){
     });
     function initMap(location) {
         var link=document.getElementById('map');
-        link.src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA-Q5hwCZi-tCg6pdtsO-KL82DXNb9oUPU&maptype=roadmap&language=en&q=" +location  ;
+        link.src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA-Q5hwCZi-tCg6pdtsO-KL82DXNb9oUPU &maptype=roadmap&language=en&q=" +location  ;
     }
     $("table").delegate('tr:nth-child(1n+5) td:nth-child(1)','mouseover mouseout', function(e) {
         var timer;
@@ -596,7 +596,7 @@ if (a===1){
             var link=document.getElementById('map');
             timer = setTimeout(function(){
           $("#map").css('border', '3px black solid') ; 
-          link.src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAsewvPDV-n-xLbxtF7xN26EU6YYReojng  &maptype=roadmap&language=en&zoom=4&q=" + text ; 
+          link.src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA-Q5hwCZi-tCg6pdtsO-KL82DXNb9oUPU &maptype=roadmap&language=en&zoom=4&q=" + text ; 
         map.setOptions({ zoom: 10 });
             }, 500); 
         }
