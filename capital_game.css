@@ -1,0 +1,59 @@
+body {
+    background-color: #eee;
+
+}
+
+/*your code here*/
+#head{
+    font-weight: bold;}
+#map{
+    width: 600px;
+    height:450px;}
+.ab{
+    border-bottom: solid 2px;
+    border-color: black;
+}
+.bc{
+    border-bottom: solid 1px;
+    border-color: lightgrey;
+}
+#cor{
+    color:blue;
+}
+#incor{
+    color:red;
+}
+#mm{
+    text-decoration: line-through;
+}
+ tr{
+    text-align: left;
+        width: 300px;
+}
+.hover  {
+    background-color: #E5E5E5;
+  transition-delay:0.5s;
+}
+
+td{
+    padding: 4px;
+ width:150px;
+    border-bottom: solid 1px;
+    border-color: lightgrey;
+
+
+}
+#dm{
+    font-family:Ebrima;
+}
+#dmm{
+    font-family: "Arial Nova Light";
+}
+.center-div
+{
+    margin: 0 auto;
+    width: 465px;
+}
+.collapse {
+    border-collapse: collapse;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Zhansaya Satui 20180950</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+      <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+      <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+    <link href="capital_game.css" rel="stylesheet" />
+
+  </head>
+  <body>
+  <div class="center-div">
+    <!--Your code here-->
+  <h2 id="dmm">Do you know the capital of this country?</h2>
+
+     <iframe
+            id='map'
+  width="600"
+  height="450"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAsewvPDV-n-xLbxtF7xN26EU6YYReojng  &maptype=roadmap&language=en&q=Singapore" allowfullscreen></iframe>
+  <table class="collapse"  class="bc" id="resultTable">
+      <tr id="head">
+          <td class="ab">Country</td>
+          <td class="ab">Capital</td>
+          <td class="ab">Answer</td>
+      </tr>
+
+      <tr class="bc">
+          <td id="pr2__question">
+          </td>
+          <td><input type="text" size="15" id="pr2__answer" placeholder="Your answer">
+          </td>
+          <td><button id="pr2__submit">See Answer</button></td>
+      </tr>
+      <tr class="bc">
+          <td colspan="3">
+              <input type="radio" id="all" value="results" name="results">All
+              <input type="radio" id="correct" value="corrects" name="results" >Correct Only
+              <input type="radio" id="incorrect" value="incorrects" name="results" >Wrong Only
+          </td>
+      </tr>
+      <tr>
+          <td>
+              <input type="button" id="pr3__undo" value="Undo">
+          </td>          <td>
+              <input type="button" id="pr3__clear" value="Clear">
+          </td>
+
+          <td>
+              <input type="button" id="pr3__restart" value="Restart">
+          </td>      </tr>
+
+  </table>
+
+  </div>
+
+  <script src="jquery/js/jquery-1.9.0.min.js"></script>
+  <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="capital_game.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/body-pix@1.0.0"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8ZaX-xtz1s6kJqvwD-kmIloCAtHYOSOI&language=en&callback=initMap"
+    async defer></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  </body>
+</html>
